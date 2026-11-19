@@ -4,10 +4,10 @@ import './App.css'
 const NAME = 'Bhuvana'
 
 const photos = [
-  { src: '/images/4.jpeg', caption: 'Where it all began — little us 💛', tilt: 2, zoom: 0 },
-  { src: '/images/1.jpeg', caption: 'That smile lights up every room ✨', tilt: -4, zoom: 0 },
-  { src: '/images/2.jpeg', caption: 'Pretty in blue, always 💙', tilt: 3, zoom: 0 },
-  { src: '/images/3.jpeg', caption: 'Partners in crime since forever 👫', tilt: -2, zoom: 1.32 },
+  { src: `${import.meta.env.BASE_URL}images/4.jpeg`, caption: 'Where it all began — little us 💛', tilt: 2, zoom: 0 },
+  { src: `${import.meta.env.BASE_URL}images/1.jpeg`, caption: 'That smile lights up every room ✨', tilt: -4, zoom: 0 },
+  { src: `${import.meta.env.BASE_URL}images/2.jpeg`, caption: 'Pretty in blue, always 💙', tilt: 3, zoom: 0 },
+  { src: `${import.meta.env.BASE_URL}images/3.jpeg`, caption: 'Partners in crime since forever 👫', tilt: -2, zoom: 1.32 },
 ]
 
 const wishes = [
